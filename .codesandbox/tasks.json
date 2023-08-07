@@ -3,11 +3,11 @@
   "setupTasks": [
     {
       "name": "install client deps",
-      "command": "install client deps"
+      "command": "cd client && npm install"
     },
     {
       "name": "install server deps",
-      "command": "install server deps"
+      "command": "cd server && npm install"
     }
   ],
 
